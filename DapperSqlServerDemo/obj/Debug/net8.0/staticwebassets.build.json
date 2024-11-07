@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "hvqcd8TiDT+ysI45SFfnh4hzGyftVYkAyU76ZQc5SVc=",
+  "Source": "DapperSqlServerDemo",
+  "BasePath": "_content/DapperSqlServerDemo",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
