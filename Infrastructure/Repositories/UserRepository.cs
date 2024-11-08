@@ -6,6 +6,7 @@ using Domain;
 using Infrastructure.Dapper;
 using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -76,6 +77,23 @@ namespace Infrastructure.Repositories
             return user;
         }
 
+        public async Task<IEnumerable<User>> GetUserByNameAsync(string userName)
+        {
+            var procedureName = @"GetUserByName";
+            using(var conn = _dapperContext.CreateConnection())
+            {
+                var users = await conn.QueryAsync<User>(
+                                     procedureName,
+                                     new { Name = userName },
+                                     commandType: CommandType.StoredProcedure
+                             );
+
+                if (!users.Any()) throw new NotFoundException("Data Not Found "); 
+
+                return users.ToList();
+            }
+        }
+
         public async Task<string> UpdateUserAsync(UserDto user)
         {
             var query = @"Update [User] Set [Name] = @Name, Email = @Email, City = @City where UserId = @UserId";
@@ -91,5 +109,7 @@ namespace Infrastructure.Repositories
                 return "User Updated Successfully";
             }
         }
+
+        
     }
 }

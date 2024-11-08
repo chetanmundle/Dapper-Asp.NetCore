@@ -15,5 +15,6 @@ namespace App.Core.Interfaces
         Task<User> CreateUserAsync(CreateUserDto user);
         Task<string> UpdateUserAsync(UserDto user);
         Task<string> DeleteUserAsync(int id);
+        Task<IEnumerable<User>> GetUserByNameAsync(string userName);
     }
 }

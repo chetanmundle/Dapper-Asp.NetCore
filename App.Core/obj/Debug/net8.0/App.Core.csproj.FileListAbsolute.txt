@@ -13,3 +13,4 @@ D:\Visual Studio\Asp.NetCore\DapperSqlServerDemo\App.Core\obj\Debug\net8.0\App.C
 D:\Visual Studio\Asp.NetCore\DapperSqlServerDemo\App.Core\obj\Debug\net8.0\refint\App.Core.dll
 D:\Visual Studio\Asp.NetCore\DapperSqlServerDemo\App.Core\obj\Debug\net8.0\App.Core.pdb
 D:\Visual Studio\Asp.NetCore\DapperSqlServerDemo\App.Core\obj\Debug\net8.0\ref\App.Core.dll
+D:\Visual Studio\Asp.NetCore\DapperSqlServerDemo\App.Core\obj\Debug\net8.0\App.Core.sourcelink.json

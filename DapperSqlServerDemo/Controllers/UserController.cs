@@ -46,5 +46,11 @@ namespace DapperSqlServerDemo.Controllers
         {
             return Ok(await _userRepo.UpdateUserAsync(userDto));
         }
+
+        [HttpGet("[action]/{name}")]
+        public async Task<IActionResult> GetUsersByName(string name)
+        {
+            return Ok(await _userRepo.GetUserByNameAsync(name));
+        }
     }
 }
