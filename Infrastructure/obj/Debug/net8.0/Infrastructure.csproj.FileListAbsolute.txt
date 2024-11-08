@@ -15,3 +15,4 @@ D:\Visual Studio\Asp.NetCore\DapperSqlServerDemo\Infrastructure\obj\Debug\net8.0
 D:\Visual Studio\Asp.NetCore\DapperSqlServerDemo\Infrastructure\obj\Debug\net8.0\refint\Infrastructure.dll
 D:\Visual Studio\Asp.NetCore\DapperSqlServerDemo\Infrastructure\obj\Debug\net8.0\Infrastructure.pdb
 D:\Visual Studio\Asp.NetCore\DapperSqlServerDemo\Infrastructure\obj\Debug\net8.0\ref\Infrastructure.dll
+D:\Visual Studio\Asp.NetCore\DapperSqlServerDemo\Infrastructure\obj\Debug\net8.0\Infrastructure.sourcelink.json

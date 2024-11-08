@@ -44,8 +44,6 @@ namespace Infrastructure.Repositories
 
                 return userobj;
             }
-
-
         }
 
         public async Task<string> DeleteUserAsync(int id)

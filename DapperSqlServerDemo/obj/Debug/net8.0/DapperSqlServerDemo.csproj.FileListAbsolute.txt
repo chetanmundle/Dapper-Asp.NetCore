@@ -44,3 +44,4 @@ D:\Visual Studio\Asp.NetCore\DapperSqlServerDemo\DapperSqlServerDemo\obj\Debug\n
 D:\Visual Studio\Asp.NetCore\DapperSqlServerDemo\DapperSqlServerDemo\obj\Debug\net8.0\DapperSqlServerDemo.pdb
 D:\Visual Studio\Asp.NetCore\DapperSqlServerDemo\DapperSqlServerDemo\obj\Debug\net8.0\DapperSqlServerDemo.genruntimeconfig.cache
 D:\Visual Studio\Asp.NetCore\DapperSqlServerDemo\DapperSqlServerDemo\obj\Debug\net8.0\ref\DapperSqlServerDemo.dll
+D:\Visual Studio\Asp.NetCore\DapperSqlServerDemo\DapperSqlServerDemo\obj\Debug\net8.0\DapperSqlServerDemo.sourcelink.json
